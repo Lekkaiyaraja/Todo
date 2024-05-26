@@ -1,0 +1,137 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+}
+
+h1 {
+  color: hwb(0 5% 5%);
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+form {
+  margin: 20px auto;
+  padding: 20px;
+  width: 300px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form input {
+  display: block;
+  width: calc(100% - 22px);
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #218838;
+}
+
+.todo-list {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.todo-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.todo-card h3 {
+  margin: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  color: #333;
+}
+
+.todo-card p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.todo-card div {
+  margin-top: 10px;
+}
+
+.todo-card label {
+  font-weight: bold;
+}
+
+.todo-card select {
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.todo-card button {
+  margin: 5px 5px 0 0;
+  padding: 10px;
+  font-size: 14px;
+  background-color: #ffc107;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.todo-card button:hover {
+  background-color: #e0a800;
+}
+
+.todo-card button.delete {
+  background-color: #dc3545;
+}
+
+.todo-card button.delete:hover {
+  background-color: #c82333;
+}
+
+.todo-card button.edit {
+  background-color: #007bff;
+}
+
+.todo-card button.edit:hover {
+  background-color: #0056b3;
+}
